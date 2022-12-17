@@ -1,0 +1,3 @@
+#!/bin/bash
+count=$(find . -type d -not -path "./." -not -path "./.." | wc -l)
+echo $count

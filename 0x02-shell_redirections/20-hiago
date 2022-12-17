@@ -1,0 +1,4 @@
+#!/bin/bash
+read -p "Enter your input: " input
+output=$(echo "$input" | tr -d 'cC')
+echo $output
