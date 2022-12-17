@@ -1,4 +1,2 @@
 #!/bin/bash
-read -p "Enter your input: " input
-output=$(echo "$input" | rev)
-echo "Output: $output"
+rev

@@ -1,3 +1,2 @@
 #!/bin/bash
-count=$(grep -c "bin" /etc/passwd)
-echo $count
+grep -c -i "bin" /etc/passwd

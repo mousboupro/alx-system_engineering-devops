@@ -1,7 +1,2 @@
 #!/bin/bash
-input_file="/etc/ssh/sshd_config"
-while read -r line; do
-  if [[ $line =~ ^[A-Za-z] ]]; then
-    echo "$line"
-  fi
-done < "$input_file"
+grep -i "^[a-z]" /etc/ssh/sshd_config

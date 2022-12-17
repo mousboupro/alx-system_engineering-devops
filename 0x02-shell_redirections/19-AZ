@@ -1,4 +1,2 @@
 #!/bin/bash
-read -p "Enter your input: " input
-output=$(echo "$input" | sed 's/A/Z/g;s/c/e/g')
-echo $output
+tr "A" "Z" | tr "c" "e"
